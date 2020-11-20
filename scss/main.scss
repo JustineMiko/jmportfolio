@@ -66,6 +66,7 @@ a {
     background-size: cover;
     background-position: center;
     height: 300px;
+    position: relative;
 }
 
 
@@ -90,8 +91,7 @@ a {
     width: auto;
     height: 400px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 
 }
 
@@ -111,7 +111,7 @@ a {
     border-radius: 50px;
     width: 80px;
     height: 80px;
-    left: 26px;
+    left: 15px;
     top: 10px;
     display: flex;
     justify-content: center;
@@ -142,7 +142,7 @@ a {
     border-radius: 50px;
     width: 80px;
     height: 80px;
-    right: 26px;
+    right: 15px;
     top: 10px;
     display: grid;
     align-content: center;
@@ -214,10 +214,10 @@ a {
 }
 
 .logo {
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -245,6 +245,7 @@ a {
     align-content: space-around;
     padding-left: 15px;
     padding-right: 15px;
+    justify-content: center;
 }
 
 .background__color3 {
@@ -478,12 +479,14 @@ textarea {
     .cv__txt {
         font-size: 20px;
         padding-top: 30px;
+        line-height: 24px;
+
     
     }
 
     .linkedin {
-        height: 60px;
-        width: 60px;
+        height: 80px;
+        width: 80px;
         margin-top: 100px;
        
     }
@@ -497,14 +500,89 @@ textarea {
     }
 
     h1 {
+        font-size: 40px;
         top: 250px;
-        margin-top: 280px;
 
     }
 
     .header__picture--img {
         top: 250px;
  
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .header__background {
+        height: 500px;
+    }
+
+    .header__picture--img {
+        height: 350px;
+        width: 350px;
+        border-radius: 350px;
+        top: 280px;
+ 
+    }
+
+    h1 {
+        font-size: 48px;
+        top: 350px;
+
+    }
+
+    .menu {
+        height: 600px;
+    }
+
+    .menu__circles--button1, .menu__circles--button2, .menu__circles--button3, .menu__circles--button4, .menu__circles--button5 {
+        height: 130px;
+        width: 130px;
+        border-radius: 130px;
+    }
+
+    .menu__circles--button1 {
+        top: 30px;
+    
+    }
+
+
+    .menu__circles--button2 {
+        top: 230px;
+
+    }
+
+    .menu__circles--button3 {
+        top: 30px;
+    
+    }
+
+    .menu__circles--button4 {
+        top: 230px;
+    
+    }
+
+    .menu__circles--button5 {
+        margin-top: 350px;
+    }
+
+    .menu__circles--text {
+        font-size: 18px;
+    }
+
+    .skills__txt, .project__txt {
+        columns: 1;
+    
+    }
+
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home {
+        width: 40px;
+        height: 40px;
     }
 }
 
