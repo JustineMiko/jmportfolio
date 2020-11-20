@@ -1,12 +1,11 @@
 body {
-    color: #0C0920; 
+    color: #0B0726; 
 }
 
 
 h1 {
     font-family: 'Reenie Beanie', cursive;
     font-size: 24px;
-    font-weight: normal;
     width: auto;
     height: 106px;
     top: 150px;
@@ -52,34 +51,22 @@ li {
     font-size: 10px;
     list-style-type: circle;
 
-
 }
 
 a {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 10px;
-    color: #0C0920;
+    color: #0B0726;
     text-decoration: underline;
-
-}
-
-nav {
-
-}
-
-
-.header {
-
 
 }
 
 .header__background {
     background-image: url('https://www.zupimages.net/up/20/35/ngay.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     height: 300px;
 }
-
 
 
 .header__picture {
@@ -204,9 +191,8 @@ nav {
 
 }
 
-.article {
+/* Fin du menu, début des articles */
 
-}
 
 .article__background--color1 {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #BDB9B3;
@@ -233,7 +219,6 @@ nav {
     display: flex;
     justify-content: space-between;
     
-
 }
 
 .logo__img {
@@ -242,9 +227,8 @@ nav {
     left: 132px;
     top: 85px;
     display: inline-flex;
-    color: #0C0920;
+    color: #0B0726;
    
-
 }
 
 .langage {
@@ -252,7 +236,6 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 15px;
-    
     
 }
 
@@ -320,7 +303,6 @@ form {
     align-items: center;
     border-color: #BDB9B3;
 
-
 }
 
 .form__mail {
@@ -329,7 +311,7 @@ form {
     width: 100px;
     height: 25px;
     margin-bottom: 8px;
-    color: #0C0920;
+    color: #0B0726;
     
 }
 
@@ -339,17 +321,18 @@ textarea {
     width: 100px;
     height: 90px;
     margin-bottom: 8px;
-    color: #0C0920;
+    color: #0B0726;
 }
 
 .form__button {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #BDB9B3;
     border-radius: 30px;
-    color: #0C0920;
+    color: #0B0726;
 }
 /* fin des paramères du formulaire de contact */
 
 
+/*Bulle lien cv*/
 
 .cv {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
@@ -375,6 +358,9 @@ textarea {
 
 }
 
+
+// Footer
+
 .footer {
     text-align: center;
 
@@ -383,7 +369,7 @@ textarea {
 .footer__txt {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 10px;
-    color: #0C0920;
+    color: #0B0726;
     text-align: center;  
 }
 
@@ -393,7 +379,7 @@ textarea {
     width: 30px;
     height: 30px;
     position: absolute;
-    color: #0C0920;
+    color: #0B0726;
 
 }
 
@@ -403,7 +389,7 @@ textarea {
     width: 40px;
     display: flex;
     margin-top: 50px;
-    color: #0C0920;
+    color: #0B0726;
    
 }
 
@@ -411,5 +397,114 @@ textarea {
 .legal {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
     height: 736px;
+}
+
+
+@media screen and (min-width: 610px) {
+    p, li, a {
+        font-size: 14px;
+        color: #0B0726;
+        line-height: 24px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: normal;
+        color: #0B0726;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 18px
+    }
+
+    .header__picture--img {
+        height: 250px;
+        width: 250px;
+        border-radius: 250px;
+        top: 140px;
+ 
+    }
+
+    .experience {
+        height: 800px;
+    }
+
+    .background__color3, .background__color4, .article__background--color2, .article__background--color1 {
+        height: 450px;
+    }
+
+
+    form {
+        font-size: 16px;
+        margin-top: 20px;
+ 
+    }
+    
+    .form__mail {
+        width: 240px;
+        height: 40px;
+        margin-bottom: 8px;
+      
+        
+    }
+    
+    textarea {
+        width: 240px;
+        height: 130px;
+        margin-bottom: 8px;
+      
+    }
+    
+    .form__button {
+        width: 80px;
+        height: 30px;
+
+    }
+    /* fin des paramères du formulaire de contact */
+
+    .cv {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+        margin-top : 80px;
+    
+    }
+    
+    .cv__txt {
+        font-size: 20px;
+        padding-top: 30px;
+    
+    }
+
+    .linkedin {
+        height: 60px;
+        width: 60px;
+        margin-top: 100px;
+       
+    }
+
+
+}
+
+@media screen and (min-width: 700px) {
+    .header__background {
+        height: 400px;
+    }
+
+    h1 {
+        top: 250px;
+        margin-top: 280px;
+
+    }
+
+    .header__picture--img {
+        top: 250px;
+ 
+    }
 }
 
