@@ -117,22 +117,10 @@ a {
     align-items: center;
     position: absolute;
     box-sizing: border-box;
-    transition-property: width;
-    transition-property: height;
-    transition-property: border-radius;
-    transition-duration: 1.5s;
+    transition: width height border-radius;
+    transition-duration: 1s;
     transition-timing-function: linear;
 }
-
-.menu__circles--button1:hover, .menu__circles--button2:hover, .menu__circles--button3:hover, .menu__circles--button4:hover, .menu__circles--button5:hover {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-
-
-}
-
-
 
 .menu__circles--button2 {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
@@ -146,6 +134,9 @@ a {
     display: grid;
     align-content: center;
     position: absolute;
+    transition: width height border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 
 }
 
@@ -161,6 +152,9 @@ a {
     display: grid;
     align-content: center;
     position: absolute;
+    transition: width height border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
   
 
 }
@@ -177,6 +171,9 @@ a {
     display: grid;
     align-content: center;
     position: absolute;
+    transition: width height border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 
 .menu__circles--button5 {
@@ -190,8 +187,21 @@ a {
     left: 310px;
     align-content: center;
     display: grid;
+    transition: width height border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 
 }
+
+
+.menu__circles--button1:hover, .menu__circles--button2:hover, .menu__circles--button3:hover, .menu__circles--button4:hover, .menu__circles--button5:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+
+
+}
+
 
 .menu__circles--text {
     font-family: 'Baloo Bhaina 2', cursive;
@@ -362,6 +372,9 @@ textarea {
     margin-top : 40px;
 
 }
+
+
+
 
 .cv__txt {
     font-family: 'Baloo Bhaina 2', cursive;
@@ -563,13 +576,6 @@ textarea {
         border-radius: 130px;
     }
 
-    .menu__circles--button1:hover, .menu__circles--button2:hover, .menu__circles--button3:hover, .menu__circles--button4:hover, .menu__circles--button5:hover {
-        width: 200px;
-        height: 200px;
-        border-radius: 200px;
-
-    
-    }
 
     .menu__circles--button1 {
         top: 30px;
