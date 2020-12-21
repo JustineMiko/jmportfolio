@@ -429,6 +429,14 @@ textarea {
    
 }
 
+//alignement logos linkedin et github
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 /* page de mentions légales */
 .legal {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
