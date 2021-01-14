@@ -1,11 +1,10 @@
-@import 'base';
-@import 'header';
-@import 'footer';
-@import 'legal';
-@import 'responsive';
+@import '_base.scss';
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_legal.scss';
+@import 'layout/_responsive.scss';
 
-@import "node_modules/normalize.css/normalize";
-
+@import "node_modules/normalize.css/normalize"; 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
