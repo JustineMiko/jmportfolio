@@ -1,0 +1,445 @@
+@charset "UTF-8";
+body {
+  color: #0B0726; }
+
+h1 {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 28px;
+  width: auto;
+  height: 106px;
+  top: 150px;
+  position: absolute;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 280px;
+  text-align: center; }
+
+h2 {
+  font-family: 'Baloo Bhaina 2', cursive;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 15px; }
+
+h3 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  text-align: center; }
+
+p {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 10px;
+  text-align: justify;
+  line-height: 13px; }
+
+li {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 10px;
+  list-style-type: circle; }
+
+a {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 10px;
+  color: #0B0726;
+  text-decoration: underline; }
+
+.header__background {
+  background-image: url("https://www.zupimages.net/up/20/35/ngay.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative; }
+
+.header__picture {
+  height: auto;
+  display: flex;
+  justify-content: center; }
+
+.header__picture--img {
+  height: 160px;
+  width: 160px;
+  border-radius: 100px;
+  bottom: 60px;
+  position: absolute;
+  top: 230px; }
+
+.menu {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+  width: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center; }
+
+.menu__circles {
+  width: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.menu__circles--button1 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  left: -15px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  box-sizing: border-box;
+  transition: width height border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
+
+.menu__circles--button2 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  left: -10px;
+  top: 200px;
+  display: grid;
+  align-content: center;
+  position: absolute;
+  transition: width height border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
+
+.menu__circles--button3 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  right: -15px;
+  top: 10px;
+  display: grid;
+  align-content: center;
+  position: absolute;
+  transition: width height border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
+
+.menu__circles--button4 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  right: -10px;
+  top: 200px;
+  display: grid;
+  align-content: center;
+  position: absolute;
+  transition: width height border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
+
+.menu__circles--button5 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  margin-top: 300px;
+  left: 310px;
+  align-content: center;
+  display: grid;
+  transition: width height border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
+
+.menu__circles--button1:hover, .menu__circles--button2:hover, .menu__circles--button3:hover, .menu__circles--button4:hover, .menu__circles--button5:hover {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px; }
+
+.menu__circles--text {
+  font-family: 'Baloo Bhaina 2', cursive;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  text-transform: capitalize; }
+
+/* Fin du menu, début des articles */
+.article__background--color1 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #BDB9B3;
+  width: auto;
+  height: 350px; }
+
+.article__background--color2 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
+  width: auto;
+  height: 350px; }
+
+.experience {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+  height: 750px; }
+
+.logo {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-around; }
+
+.logo__img {
+  width: 45px;
+  height: 35px;
+  left: 132px;
+  top: 85px;
+  display: inline-flex;
+  color: #0B0726; }
+
+.langage {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 15px; }
+
+.language__txt {
+  text-align: space;
+  display: flex;
+  align-content: space-around;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center; }
+
+.background__color3 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #BDB9B3;
+  height: 350px;
+  width: auto; }
+
+.skills__txt {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2; }
+
+.project__txt {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2; }
+
+.education {
+  list-style-type: none; }
+
+.education__txt {
+  padding-top: 15px;
+  text-align: center;
+  list-style-type: none; }
+
+/* partie contact */
+.background__color4 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DC9A7D;
+  height: 300px; }
+
+/* alignement de la bulle cv - formulaire de contact et lgo linkedin*/
+.background__color4--align {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; }
+
+/* début des paramètres de formulaire */
+form {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-color: #BDB9B3; }
+
+.form__mail {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  margin-bottom: 8px;
+  color: #0B0726; }
+
+textarea {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+  border-radius: 5px;
+  width: 100px;
+  height: 90px;
+  margin-bottom: 8px;
+  color: #0B0726; }
+
+.form__button {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #BDB9B3;
+  border-radius: 30px;
+  color: #0B0726; }
+
+/* fin des paramères du formulaire de contact */
+/*Bulle lien cv*/
+.cv {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  text-decoration: none;
+  outline: none;
+  margin-top: 40px; }
+
+.cv__txt {
+  font-family: 'Baloo Bhaina 2', cursive;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 20px; }
+
+.footer {
+  text-align: center; }
+
+.footer__txt {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 10px;
+  color: #0B0726;
+  text-align: center; }
+
+.navbar {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 10px;
+  color: #0B0726;
+  justify-content: center; }
+
+.home {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  color: #0B0726; }
+
+.linkedin {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  margin-top: 50px;
+  color: #0B0726; }
+
+.social {
+  display: flex;
+  justify-content: space-around; }
+
+/* page de mentions légales */
+.legal {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+  height: 810px; }
+
+@media screen and (min-width: 610px) {
+  p, li, a {
+    font-size: 14px;
+    color: #0B0726;
+    line-height: 24px; }
+  h1 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #0B0726; }
+  h2 {
+    font-size: 25px; }
+  h3 {
+    font-size: 18px; }
+  .header__picture--img {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    top: 140px; }
+  .experience {
+    height: 800px; }
+  .background__color3, .background__color4, .article__background--color2, .article__background--color1 {
+    height: 450px; }
+  form {
+    font-size: 16px;
+    margin-top: 20px; }
+  .form__mail {
+    width: 240px;
+    height: 40px;
+    margin-bottom: 8px; }
+  textarea {
+    width: 240px;
+    height: 130px;
+    margin-bottom: 8px; }
+  .form__button {
+    width: 80px;
+    height: 30px; }
+  /* fin des paramères du formulaire de contact */
+  .cv {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%), #609A7D;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin-top: 80px; }
+  .cv__txt {
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 24px; }
+  .linkedin {
+    height: 80px;
+    width: 80px;
+    margin-top: 100px; } }
+
+@media screen and (min-width: 700px) {
+  .header__background {
+    height: 400px; }
+  h1 {
+    font-size: 40px;
+    top: 250px; }
+  .header__picture--img {
+    top: 250px; } }
+
+@media screen and (min-width: 900px) {
+  .header__background {
+    height: 500px; }
+  .header__picture--img {
+    height: 350px;
+    width: 350px;
+    border-radius: 350px;
+    top: 280px; }
+  h1 {
+    font-size: 48px;
+    top: 350px; }
+  .menu {
+    height: 600px; }
+  .menu__circles--button1, .menu__circles--button2, .menu__circles--button3, .menu__circles--button4, .menu__circles--button5 {
+    height: 130px;
+    width: 130px;
+    border-radius: 130px; }
+  .menu__circles--button1:hover, .menu__circles--button2:hover, .menu__circles--button3:hover, .menu__circles--button4:hover, .menu__circles--button5:hover {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px; }
+  .menu__circles--button1 {
+    top: 30px; }
+  .menu__circles--button2 {
+    top: 230px; }
+  .menu__circles--button3 {
+    top: 30px; }
+  .menu__circles--button4 {
+    top: 230px; }
+  .menu__circles--button5 {
+    margin-top: 350px; }
+  .menu__circles--text {
+    font-size: 18px; }
+  .skills__txt, .project__txt {
+    columns: 1; }
+  p {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .home {
+    width: 40px;
+    height: 40px; } }
